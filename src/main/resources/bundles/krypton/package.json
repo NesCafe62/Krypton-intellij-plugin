@@ -1,0 +1,28 @@
+{
+  "name": "krypton",
+  "version": "1.0.0",
+  "description": "%description%",
+  "license": "MIT",
+  "contributes": {
+    "languages": [
+      {
+        "id": "krypton",
+        "aliases": [
+          "Krypton",
+          "krypton"
+        ],
+        "extensions": [
+          ".kr"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "krypton",
+        "scopeName": "source.krypton",
+        "path": "./syntaxes/krypton.tmLanguage"
+      }
+    ]
+  }
+}
